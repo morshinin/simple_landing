@@ -1,0 +1,427 @@
+@import url("normalize.css");
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
+
+
+body {
+	font-family: 'Lato', sans-serif;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+.container, .about, .portfolio {
+	width: 960px;
+	margin: 0 auto;
+}
+
+dfn {
+	display: block;
+	font-weight: 300;
+	font-style: normal;
+}
+
+p {
+	color: #888;
+}
+
+/* ---------- Header ------------ */
+
+header {
+	background: url('../img/header-bg.jpg') no-repeat;
+	width: 100%;
+	height: 750px;
+	color: #fff;
+}
+
+.logo {
+	float: left;
+	margin-top: 50px;
+}
+
+
+/* ------------ Navigation ------------ */
+
+nav {
+	float: right;
+}
+
+nav ul {
+	margin-top: 50px;
+	list-style-type: none;
+}
+
+nav li {
+	float: left;
+	padding-left: 20px;
+}
+
+nav li a {
+	color: #888;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: #fff;
+}
+
+/* ------------ Main banner ------------ */
+
+.main-banner {
+	text-align: center;
+	clear: both;
+	padding-top: 230px;
+}
+
+.main-banner h1 {
+	font-size: 51px;
+	font-weight: 900;
+	color: #fff;
+	margin: 0;
+}
+
+.main-banner dfn {
+	font-style: normal;
+	font-size: 34px;
+}
+
+.main-banner a.btn {
+	display: inline-block;
+	margin-top: 50px;
+}
+
+/* ----------- About ---------- */
+
+.about {
+	text-align: center;
+	padding-bottom: 90px;
+}
+
+.about h3, .services h3, .team h3, .contact h3 {
+	font-size: 42px;
+	margin-top: 70px;
+}
+
+.about dfn, .services dfn, .portfolio dfn,
+.team dfn, .contact dfn {
+	font-weight: 300;
+	font-size: 20px;
+	color: #888;
+	margin-bottom: 55px;
+}
+
+.about p {
+	font-size: 18px;
+	padding: 0 85px;
+}
+
+/* ----------- Services --------- */
+
+.services {
+	width: 100%;
+	background-color: #f8f8f8;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+	text-align: center;
+	padding-bottom: 90px; 
+}
+
+
+.service {
+	width: 320px;
+	float: left;
+}
+
+.image {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	padding: 35px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	position: relative;
+}
+
+.image img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+  	-moz-transform: translate(-50%, -50%);
+  	-webkit-transform: translate(-50%, -50%);
+  	-o-transform: translate(-50%, -50%);
+}
+
+.service h4, .employee h4 {
+	font-size: 32px;
+	margin: 30px 0;
+}
+
+.service dfn, .employee dfn {
+	font-family: "Open sans", sans-serif;
+	font-size: 14px;
+	text-align: justify;
+	padding: 0 10px;
+	margin: 0;
+}
+
+/* ----------- Banner ---------- */
+
+.banner, .banner2 {
+	width: 100%;
+	height: 280px;
+	background: url('../img/banner-bg.jpg') no-repeat;
+	text-align: center;
+	padding-top: 140px;
+	padding-bottom: 0;
+	margin-bottom: 60px;
+}
+
+.banner h3, .banner2 h3 {
+	font-weight: 900;
+	color: #fff;
+	font-size: 42px;
+	margin-bottom: 40px;
+}
+ 
+ /* ----------- Portfolio -------- */
+
+.portfolio {
+	text-align: center;
+}
+
+.portfolio h3 {
+	font-weight: 900;
+	font-size: 42px;
+	color: #333;
+}
+
+.projects {
+	margin-top: 80px;
+}
+
+.portfolio img {
+	margin: 0;
+	padding: 0;
+}
+
+.portfolio .project {
+	margin: 10px;
+	width: 300px;
+	float: left;
+}
+
+.portfolio .feature {
+	width: 620px;
+	float: left;
+	margin: 10px;
+}
+
+.portfolio a:hover {
+	background-color: rgba(0,176,156,.5);
+}
+
+/* ----------- The team -------- */
+
+.team {
+	clear: both;
+	text-align: center;
+	background-color: #f8f8f8;
+	margin-top: 55px;
+	padding: 55px 0;
+	width: 100%;
+}
+
+.team h3 {
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.employee {
+	width: 320px;
+	float: left;
+}
+
+/* ----------- Banner 2 -------- */
+
+.banner2 {
+	clear: both;
+	background: url('../img/banner2-bg.jpg');
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* ----------- Contact -------- */
+
+.contact {
+	background: url('../img/contact-bg.jpg');
+	text-align: center;
+	padding-top: 10px;
+	width: 100%;
+}
+
+.contact form {
+	display: block;
+	width: 640px;
+	float: left;
+}
+
+.contact input {
+	width: 270px;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	background-color: #fff;
+	border: none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.contact textarea {
+	width: 580px;
+	border: none;
+	padding: 10px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	color: #ccc;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.contact .btn {
+	float: right;
+	margin: 20px 20px
+}
+
+.contact .anno {
+	width: 300px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+}
+
+.contact h5 {
+	display: inline-block;
+	font-size: 18px;
+	color: #333;
+}
+
+.anno address, .anno address a {
+	margin-top: 30px;
+	line-height: 1.5em;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	color: #888;
+}
+
+.anno address a {
+	text-decoration: none;
+}
+
+.anno address a:hover {
+	text-decoration: underline;
+}
+
+.anno .social {
+	list-style: none;
+	margin: 30px 0;
+	padding: 0;
+}
+
+.anno li {
+	float: left;
+	margin-right: 10px;
+}
+
+/* ----------- Footer -------- */
+
+footer {
+	clear: both;
+	background-color: #333;
+	margin-top: -10px;
+	padding: 20px 0;
+	width: 100%;
+}
+
+.footer-logo {
+	margin-left: 20px;
+	float: left;
+}
+
+footer .copyright {
+	float: right;
+	font-size: 13px;
+	color: #888;
+	padding-right: 60px;
+}
+
+
+/* ----------- Buttons --------- */
+
+.btn, .btn2 {
+	padding: 20px 40px;
+	color: #fff;
+	font-family: "Open sans", sans-serif;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+	text-decoration: none;
+}
+
+.btn {
+	background-color: #00b09c;
+	font-size: 14px;
+}
+
+.btn2 {
+	font-size: 16px;
+	border: 1px solid #fff;
+}
+
+
+/* ---------- Misc ------------ */
+
+/* ---------- Clearfix --------- */
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
+
+/* ----------- Fonts ----------- */
+

@@ -1,0 +1,1 @@
+# Simple landing HTML template
